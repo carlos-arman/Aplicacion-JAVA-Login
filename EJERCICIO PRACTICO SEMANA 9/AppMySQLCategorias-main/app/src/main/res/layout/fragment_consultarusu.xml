@@ -1,0 +1,162 @@
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FF3B4D5C"
+
+    android:layout_margin = "15dp"
+    tools:context=".RegistroUsu">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Consultar usuario"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="140dp"
+                android:src="@drawable/registro"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                />
+
+            <EditText
+                android:id="@+id/etidusu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:textColorHint="@color/white"
+                android:layout_marginRight="15dp"
+                android:drawableStart="@drawable/id"
+                android:drawablePadding="5dp"
+                android:textColor="@color/white"
+                android:hint="Ingrese el ID de usuario a buscar"
+                android:minHeight="48dp"
+                android:paddingLeft="10dp" />
+
+            <EditText
+                android:id="@+id/etnombreusu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:textColorHint="@color/white"
+                android:layout_marginRight="15dp"
+                android:drawableStart="@drawable/user"
+                android:drawablePadding="5dp"
+                android:hint="Su nombre de usuario es:"
+                android:minHeight="48dp"
+                android:paddingLeft="10dp" />
+            <EditText
+                android:id="@+id/etapellido"
+                android:layout_width="match_parent"
+                android:textColorHint="@color/white"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/white"
+                android:layout_marginRight="15dp"
+                android:drawableStart="@drawable/user"
+                android:drawablePadding="5dp"
+                android:hint="Su Apellido de usuario es:"
+                android:minHeight="48dp"
+                android:paddingLeft="10dp" />
+            <EditText
+                android:id="@+id/etCorreousu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/white"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:drawableStart="@drawable/email"
+                android:drawablePadding="5dp"
+                android:hint="Su email es:"
+                android:minHeight="48dp"
+                android:paddingLeft="10dp" />
+
+
+            <EditText
+                android:id="@+id/tipo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="15dp"
+                android:textColorHint="@color/white"
+                android:layout_marginRight="15dp"
+                android:drawableStart="@drawable/tipo"
+                android:drawablePadding="5dp"
+                android:hint="Tipo:"
+                android:minHeight="48dp"
+                android:paddingLeft="10dp" />
+
+
+
+            <EditText
+                android:id="@+id/estadousu"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:textColorHint="@color/white"
+                android:layout_marginRight="15dp"
+                android:drawableStart="@drawable/estado"
+                android:drawablePadding="5dp"
+                android:hint="Estado Usuario:"
+                android:minHeight="48dp"
+                android:paddingLeft="10dp" />
+
+
+
+
+
+
+
+            <Button
+                android:id="@+id/btnBuscarUsu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="15dp"
+
+
+                android:text="Consultar usuario"
+                android:textColor="#FFF"
+                android:textSize="18sp" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.appcompat.widget.LinearLayoutCompat>
